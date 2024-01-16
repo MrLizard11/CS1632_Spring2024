@@ -1,10 +1,9 @@
 package edu.pitt.cs;
-
-//TODO: Import libraries as needed
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.NoSuchElementException;
 
 public class SortedCollection {
-	// TODO: Add member variables or methods as needed
 
 	/**
 	 * Adds the number n to the collection.
@@ -12,8 +11,13 @@ public class SortedCollection {
 	 * @param n the number to add to the collection
 	 * @return always returns true
 	 */
+	private ArrayList<Integer> collect = new ArrayList<>();
+	int size = 0;
 	public boolean add(int n) {
-		// TODO: Implement
+		int x = Collections.binarySearch(collect, n);
+		if(x < 0) x = -x - 1;
+		collect.add(x, n);
+		size++;
 		return true;
 	}
 
@@ -24,8 +28,9 @@ public class SortedCollection {
 	 * @return the smallest number in the collection
 	 */
 	public int remove() throws NoSuchElementException {
-		// TODO: Implement
-		return 0;
+		if(collect.isEmpty()) throw new NoSuchElementException();
+		int small = collect.remove(0);
+		return small;
 	}
 
 	/**
@@ -47,9 +52,16 @@ public class SortedCollection {
 			showUsage();
 			return;
 		}
-		
-		// TODO: add numbers in commandline arguments to collection using the add(int) method.
-		// If any commandline argument is not a number, call showUsage() and return.
+		for (int i = 0; i < args.length; i++) {
+			try {
+				int x = Integer.parseInt(args[i]);
+				collection.add(x);
+			}
+			catch(NumberFormatException e){	
+				showUsage();
+				return;
+			}
+		}
 		
 		System.out.print("sorted: ");
 		for (int i = 0; i < args.length; i++) {
