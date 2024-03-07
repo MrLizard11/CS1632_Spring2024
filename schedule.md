@@ -54,6 +54,14 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 * Class 1: Midterm 1 review
 
 * Class 2: Midterm 1 on GradeScope
+  * Steps:
+    1. Do TopHat attendance at start of class.  If no attendance, grade will not be counted.
+    2. Click on assignment "Midterm 1" on GradeScope (will appear at start of class).
+    3. Click on the "Start Assignment" button.  There will be a count down timer on the top right once you start.
+    4. Finish and submit the exam within 75 minutes.  You can submit multiple times.
+  * Optionally, you can try the "Sample GradeScope Exam (For Practice)" to get used to the mechanics.
+  * Exam is open book (Lecture slides, notes, textbook, all exercises and deliverables you completed, use of JRE or VSCode to test your submission).
+  * Exam is individual work.
 
 ## WEEK 7 (Week of 19 FEB)
 
@@ -113,17 +121,13 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 14 (Week of 8 APR)
 
-* April 11, 1:00PM – 2:15PM: [NetApp](https://www.netapp.com/) guest lecture
-  * Submit your resumes [HERE](https://pitt.co1.qualtrics.com/jfe/form/SV_eRn59TbEy46D7oO)!
+* April 9, 1:00 - 2:15 PM: Thermo-Fisher Lecture
 
-* April 11, 4:00PM - 5:15PM: [Deloitte](https://www.deloitte.com/) guest lecture
-  * Submit your resumes [HERE](https://pitt.co1.qualtrics.com/jfe/form/SV_0lBY1Xzs0OSoBlY)!
+* April 11, 1:00 - 2:15 PM: UPMC Lecture
 
-* April 13, 1:00PM – 2:15PM: [SIG (Susquehanna International Group)](https://sig.com/) guest lecture
-  * Submit your resumes [HERE](https://pitt.co1.qualtrics.com/jfe/form/SV_6DaB1iknEVtc65E)!
+* April 9, 4:00 - 5:15 PM: Deloitte Lecture
 
-* April 13, 4:00PM - 5:15PM: [Aerotech](https://www.aerotech.com/) guest lecture
-  * Submit your resumes [HERE](https://pitt.co1.qualtrics.com/jfe/form/SV_4Vfnh540dCT1qZM)!
+* April 11, 4:00 - 5:15 PM: Sheetz Lecture
 
 ## WEEK 15 (Week of 15 APR)
 
